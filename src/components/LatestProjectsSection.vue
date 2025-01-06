@@ -112,7 +112,7 @@ const Projects = ref([
   {
     id: 1,
     category: "web development",
-    image: "src/assets/project-vue-asset.png",
+    image: "/project-vue-asset.png",
     title: "project 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",
@@ -123,7 +123,7 @@ const Projects = ref([
   {
     id: 2,
     category: "Mobile App",
-    image: "src/assets/mobile-vue-asset.jpg",
+    image: "/mobile-vue-asset.jpg",
     title: "project 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",
@@ -134,7 +134,7 @@ const Projects = ref([
   {
     id: 3,
     category: "web development",
-    image: "src/assets/project-vue-asset.png",
+    image: "/project-vue-asset.png",
     title: "project 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",
@@ -145,7 +145,7 @@ const Projects = ref([
   {
     id: 4,
     category: "Mobile App",
-    image: "src/assets/mobile-vue-asset.jpg",
+    image: "/mobile-vue-asset.jpg",
     title: "project 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",
@@ -156,7 +156,7 @@ const Projects = ref([
   {
     id: 5,
     category: "web development",
-    image: "src/assets/project-vue-asset.png",
+    image: "/project-vue-asset.png",
     title: "project 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",
@@ -167,7 +167,7 @@ const Projects = ref([
   {
     id: 6,
     category: "Mobile App",
-    image: "src/assets/mobile-vue-asset.jpg",
+    image: "/mobile-vue-asset.jpg",
     title: "project 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",

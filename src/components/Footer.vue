@@ -4,7 +4,7 @@
   >
     <div class="container p-12 flex justify-between">
       <div>
-        <img src="@/assets/MG-logo.png" alt="logo" class="w-20" />
+        <img src="/MG-logo.png" alt="logo" class="w-20" />
       </div>
       <p class="text-slate-600">All rights reserved.</p>
     </div>
