@@ -103,7 +103,7 @@
               class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-primary"
             >
               <img
-                src="/top_picture.jpg"
+                :src="topPicture"
                 alt="Hero pic"
                 width="500"
                 height="auto"
@@ -121,6 +121,7 @@
 <script setup>
 import AOS from "aos";
 import "aos/dist/aos.css";
+import topPicture from "../../public/top_picture.jpg";
 
 AOS.init();
 </script>
