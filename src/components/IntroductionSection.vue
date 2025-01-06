@@ -121,7 +121,7 @@
 <script setup>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import topPicture from "../../public/top_picture.jpg";
+import topPicture from "../../public/top_picture.JPG";
 
 AOS.init();
 </script>
