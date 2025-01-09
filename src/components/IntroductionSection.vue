@@ -76,7 +76,7 @@
                   download="CV-2025.pdf"
                   class="pl-2 text-primary"
                 >
-                  Download resume</a
+                  Téléchargez mon CV</a
                 >
               </div>
             </button>
