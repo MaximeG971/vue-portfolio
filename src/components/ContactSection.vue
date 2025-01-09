@@ -15,10 +15,11 @@
         <p
           class="text-[#adb7be] text-center my-4 mx-auto max-w-lg leading-relaxed"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias
-          quibusdam officia at, a quis cumque ea aperiam omnis minima quam. Modi
-          necessitatibus odit corporis at dolorem quae iusto aliquam? Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Nobis, porro!
+          Got a question, an opportunity, or an exciting project in mind ?
+          Whether it's to collaborate on a mission, discuss a job offer, or
+          simply learn more about my background, feel free to reach out. I'm
+          always open to new opportunities and sharing my skills to tackle fresh
+          challenges.
         </p>
         <div class="flex flex-col items-center space-y-4 mt-5">
           <div class="flex items-center space-x-2">
