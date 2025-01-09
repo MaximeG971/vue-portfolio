@@ -6,7 +6,7 @@
       <div>
         <img src="/MG-logo.png" alt="logo" class="w-20" />
       </div>
-      <p class="text-slate-600">All rights reserved.</p>
+      <p class="text-slate-600">Tous droits réservés.</p>
     </div>
   </footer>
 </template>
