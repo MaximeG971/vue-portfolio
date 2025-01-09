@@ -19,7 +19,7 @@
             <h1
               class="pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl"
             >
-              Hi, I'm
+              Hello, Je Suis
               <span
                 class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500"
               >
@@ -30,24 +30,13 @@
           <p
             class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl"
           >
-            A French web developer based in Strasbourg, passionaite about
-            creating unique digital experiences and open to new opportunities.
+            Développeur web français basé à Strasbourg, passionnéé par la
+            création d'expériences numériques uniques et ouvert à de nouvelles
+            opportunités.
           </p>
           <div
             class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0"
           >
-            <button
-              class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center"
-            >
-              <span
-                class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent"
-              ></span>
-              <span
-                class="relative flex items-center justify-center text-white"
-              >
-                <a href="#contact">Hire Me</a></span
-              >
-            </button>
             <button
               class="border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center"
             >

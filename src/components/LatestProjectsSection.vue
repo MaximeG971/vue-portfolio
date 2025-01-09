@@ -3,16 +3,15 @@
     <div class="px-4 xl:pl-16">
       <div class="mb-4 md:flex md:justify-between xl:pr-16">
         <h2 class="text-4xl font-bold text-white">
-          My
           <span
             class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
-            >Latest Projects</span
+            >Mes Derniers Projets</span
           >
         </h2>
         <div class="flex space-x-4 mb-4 mt-5 md:mt-0">
           <button
             class="hover:text-primary"
-            v-for="category in ['ALL', 'WEB DEVELOPMENT', 'MOBILE APP']"
+            v-for="category in ['ALL', 'DEVELOPPEMENT WEB', 'APP MOBILE']"
             :key="category"
             @click="selectedCategory = category"
           >
@@ -126,7 +125,7 @@ const Projects = ref([
     image: "/GreenDrive.jpg",
     title: "Green Drive",
     description:
-      "GreenDrive is an innovative application designed to help electric vehicle drivers easily locate nearby charging stations using geolocation. Users can not only find chrging stations but also reserve a time slot to charge their vehicle. The app also includes an admin interface that allow for managing charging stations (activation/deactivation) and user profiles for a seamless and secure experience.",
+      "GreenDrive est une application innovante conçue pour aider les conducteurs de véhicules électriques à localiser facilement les stations de recharge à proximité grâce à la géolocalisation. Les utilisateurs peuvent non seulement trouver des stations de recharge, mais aussi réserver un créneau horaire pour recharger leur véhicule. L'application comprend également une interface d'administration qui permet de gérer les stations de recharge (activation/désactivation) et les profils des utilisateurs pour une expérience transparente et sécurisée.",
     technologies: ["ReactJs", "Express", "MYSQL"],
     gitURL: "",
     webURL: "",
@@ -137,7 +136,7 @@ const Projects = ref([
     image: "/UltimateGoal.jpeg",
     title: "Ultimate Goal Academy",
     description:
-      "Ultimate Goal Academy is an academy dedicated to young football players. The academy offers group sessions, indivudal training, as well as holiday camps during school breaks. This application allows users to explore the various training programs offered by the academy, view staff profiles, and contact them directly. The admin interface enables the management of the information displayed on the site, ensuring smooth and up-to-date content.",
+      "Ultimate Goal Academy est une académie dédiée aux jeunes joueurs de football. L'académie propose des sessions de groupe, des entraînements individuels, ainsi que des stages pendant les congés scolaires. Cette application permet aux utilisateurs d'explorer les différents programmes d'entraînement proposés par l'académie, de consulter les profils des membres du staff et de les contacter directement. L'interface d'administration permet de gérer les informations affichées sur le site, garantissant ainsi un contenu fluide et actualisé.",
     technologies: ["ReactJs", "Express", "MYSQL"],
     gitURL: "",
     webURL: "",
@@ -148,7 +147,7 @@ const Projects = ref([
     image: "/project-vue-asset.png",
     title: "Wild Transfer",
     description:
-      "This application is a clone of the famous WeTransfer, allowing users to upload files and send them to one or more recipients. Once the emails are provided, the recipients receive an email with a link granting them access to the files and enabling them to download them. The user can also register on the app, choose between a free plan or a paid plan, which allows for more file transfers and access to additional features.",
+      "Cette application est un clone du célèbre WeTransfer, permettant aux utilisateurs de télécharger des fichiers et de les envoyer à un ou plusieurs destinataires. Une fois les adresses électroniques fournies, les destinataires reçoivent un courriel contenant un lien leur donnant accès aux fichiers et leur permettant de les télécharger. L'utilisateur peut également s'enregistrer sur l'application, choisir entre un plan gratuit et un plan payant, qui permet de transférer davantage de fichiers et d'accéder à des fonctionnalités supplémentaires.",
     technologies: ["ReactJs", "Express", "MYSQL", "Docker"],
     gitURL: "",
     webURL: "",

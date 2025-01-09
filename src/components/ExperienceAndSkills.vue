@@ -13,10 +13,9 @@
     >
       <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full w-[80%]">
         <h2 class="text-4xl font-bold text-white text-left mb-4">
-          My
           <span
             class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
-            >Skills</span
+            >Mes Skills</span
           >
         </h2>
         <div class="mt-8 grid grid-cols-3 gap-4">
@@ -36,10 +35,9 @@
         <h2
           class="text-4xl font-bold text-white text-left mb-8 md:text-center md:mt-0 mt-8"
         >
-          My
           <span
             class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
-            >Experiences</span
+            >Mes Expériences</span
           >
         </h2>
         <div class="space-y-8 py-8" data-aos="fade-left">
@@ -144,15 +142,9 @@ const skills = ref([
 const experiences = ref([
   {
     id: 1,
-    role: "Web Developer",
+    role: "Développeur Web",
     company: "France Solar",
-    date: "Feb 2024 - Present",
-  },
-  {
-    id: 2,
-    role: "Web Developer",
-    company: "France Solar",
-    date: "Feb 2024 - Present",
+    date: "Fév. 2024 - Aujourd'hui",
   },
 ]);
 </script>

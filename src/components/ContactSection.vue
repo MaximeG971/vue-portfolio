@@ -1,10 +1,9 @@
 <template>
   <section class="text-white mt-20 flex flex-col items-center" id="contact">
     <h2 class="text-4xl font-bold text-white md:text-center mb-4 px-4 xl:pl-16">
-      Let's
       <span
         class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
-        >Connect</span
+        >Contactez-moi !</span
       >
     </h2>
     <div
@@ -15,11 +14,11 @@
         <p
           class="text-[#adb7be] text-center my-4 mx-auto max-w-lg leading-relaxed"
         >
-          Got a question, an opportunity, or an exciting project in mind ?
-          Whether it's to collaborate on a mission, discuss a job offer, or
-          simply learn more about my background, feel free to reach out. I'm
-          always open to new opportunities and sharing my skills to tackle fresh
-          challenges.
+          Que ce soit pour collaborer à une mission, discuter d'une offre
+          d'emploi ou simplement en savoir plus sur mon parcours, n'hésitez pas
+          à me contacter. Je suis toujours prêt à saisir de nouvelles
+          opportunités et à partager mes compétences pour relever de nouveaux
+          défis
         </p>
         <div class="flex flex-col items-center space-y-4 mt-5">
           <div class="flex items-center space-x-2">
@@ -61,7 +60,7 @@
               href="https://linkedin.com/in/maxime-gael"
               class="text-white hover:text-primary"
               target="_blank"
-              >My LinkedIn Profile</a
+              >Mon Profil LinkedIn</a
             >
           </div>
         </div>
