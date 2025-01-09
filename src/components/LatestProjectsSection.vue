@@ -2,11 +2,17 @@
   <section class="text-white mt-20" id="projects">
     <div class="px-4 xl:pl-16">
       <div class="mb-4 md:flex md:justify-between xl:pr-16">
-        <h2 class="text-4xl font-bold text-white">My Latest Projects</h2>
+        <h2 class="text-4xl font-bold text-white">
+          My
+          <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
+            >Latest Projects</span
+          >
+        </h2>
         <div class="flex space-x-4 mb-4 mt-5 md:mt-0">
           <button
             class="hover:text-primary"
-            v-for="category in ['all', 'web development', 'Mobile App']"
+            v-for="category in ['ALL', 'WEB DEVELOPMENT', 'MOBILE APP']"
             :key="category"
             @click="selectedCategory = category"
           >
@@ -18,7 +24,11 @@
         class="px-4 sm:py-16 xl:pr-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3"
         data-aos="fade-right"
       >
-        <div v-for="project in filteredProjects" :key="project.id">
+        <div
+          class="flex flex-col h-full rounded-t-xl relative group"
+          v-for="project in filteredProjects"
+          :key="project.id"
+        >
           <div
             class="h-52 md:h-[24rem] rounded-t-xl relative group"
             :style="{
@@ -78,6 +88,7 @@
           </div>
           <div
             class="text-white rounded-b-xl mt-3 bg-[#111a3e] shadow-lg border border-[#1f1641] py-6 px-4"
+            style="min-height: 310px"
           >
             <h3 class="text-lg font-semibold uppercase lg:text-xl">
               {{ project.title }}
@@ -111,67 +122,34 @@ import { ref, computed } from "vue";
 const Projects = ref([
   {
     id: 1,
-    category: "web development",
-    image: "/project-vue-asset.png",
-    title: "project 1",
+    category: "Web Development",
+    image: "/GreenDrive.jpg",
+    title: "Green Drive",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",
-    technologies: ["vue.js 3", "vuex", "Express"],
+      "GreenDrive is an innovative application designed to help electric vehicle drivers easily locate nearby charging stations using geolocation. Users can not only find chrging stations but also reserve a time slot to charge their vehicle. The app also includes an admin interface that allow for managing charging stations (activation/deactivation) and user profiles for a seamless and secure experience.",
+    technologies: ["ReactJs", "Express", "MYSQL"],
     gitURL: "",
     webURL: "",
   },
   {
     id: 2,
-    category: "Mobile App",
-    image: "/mobile-vue-asset.jpg",
-    title: "project 1",
+    category: "Web Development",
+    image: "/UltimateGoal.jpeg",
+    title: "Ultimate Goal Academy",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",
-    technologies: ["vue.js 3", "vuex", "Express"],
+      "Ultimate Goal Academy is an academy dedicated to young football players. The academy offers group sessions, indivudal training, as well as holiday camps during school breaks. This application allows users to explore the various training programs offered by the academy, view staff profiles, and contact them directly. The admin interface enables the management of the information displayed on the site, ensuring smooth and up-to-date content.",
+    technologies: ["ReactJs", "Express", "MYSQL"],
     gitURL: "",
     webURL: "",
   },
   {
     id: 3,
-    category: "web development",
+    category: "Web Development",
     image: "/project-vue-asset.png",
-    title: "project 1",
+    title: "Wild Transfer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",
-    technologies: ["vue.js 3", "vuex", "Express"],
-    gitURL: "",
-    webURL: "",
-  },
-  {
-    id: 4,
-    category: "Mobile App",
-    image: "/mobile-vue-asset.jpg",
-    title: "project 1",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",
-    technologies: ["vue.js 3", "vuex", "Express"],
-    gitURL: "",
-    webURL: "",
-  },
-  {
-    id: 5,
-    category: "web development",
-    image: "/project-vue-asset.png",
-    title: "project 1",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",
-    technologies: ["vue.js 3", "vuex", "Express"],
-    gitURL: "",
-    webURL: "",
-  },
-  {
-    id: 6,
-    category: "Mobile App",
-    image: "/mobile-vue-asset.jpg",
-    title: "project 1",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!",
-    technologies: ["vue.js 3", "vuex", "Express"],
+      "This application is a clone of the famous WeTransfer, allowing users to upload files and send them to one or more recipients. Once the emails are provided, the recipients receive an email with a link granting them access to the files and enabling them to download them. The user can also register on the app, choose between a free plan or a paid plan, which allows for more file transfers and access to additional features.",
+    technologies: ["ReactJs", "Express", "MYSQL", "Docker"],
     gitURL: "",
     webURL: "",
   },

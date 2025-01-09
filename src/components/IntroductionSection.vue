@@ -30,9 +30,8 @@
           <p
             class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            eius laboriosam ratione corporis tempore facilis, laborum, debitis
-            dolorem accusamus accusantium modi obcaecati?
+            A French web developer based in Strasbourg, passionaite about
+            creating unique digital experiences and open to new opportunities.
           </p>
           <div
             class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0"
@@ -43,8 +42,10 @@
               <span
                 class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent"
               ></span>
-              <span class="relative flex items-center justify-center text-white"
-                >Hire Me</span
+              <span
+                class="relative flex items-center justify-center text-white"
+              >
+                <a href="#contact">Hire Me</a></span
               >
             </button>
             <button

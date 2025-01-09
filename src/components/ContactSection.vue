@@ -1,176 +1,70 @@
 <template>
-  <section class="text-white mt-20" id="contact">
-    <h2 class="text-4xl font-bold text-white text-left mb-4 px-4 xl:pl-16">
-      Let's Connect
+  <section class="text-white mt-20 flex flex-col items-center" id="contact">
+    <h2 class="text-4xl font-bold text-white md:text-center mb-4 px-4 xl:pl-16">
+      Let's
+      <span
+        class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
+        >Connect</span
+      >
     </h2>
     <div
-      class="grid md:grid-cols-2 gap-4 relative px-4 xl:px-16 mt-8"
+      class="relative px-4 xl:px-16 mt-8 max-w-4xl w-full"
       data-aos="zoom-in-up"
     >
       <div>
-        <p class="text-[#adb7be]">
+        <p
+          class="text-[#adb7be] text-center my-4 mx-auto max-w-lg leading-relaxed"
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias
           quibusdam officia at, a quis cumque ea aperiam omnis minima quam. Modi
           necessitatibus odit corporis at dolorem quae iusto aliquam? Lorem
           ipsum dolor sit amet consectetur adipisicing elit. Nobis, porro!
         </p>
-        <div class="col-lg-4 col-md-4 mb-lg-0 mt-5">
-          <div class="flex mb-10 items-center">
+        <div class="flex flex-col items-center space-y-4 mt-5">
+          <div class="flex items-center space-x-2">
             <div
-              class="p-2"
-              style="
-                background: #111a3e;
-                width: 50px;
-                height: 46px;
-                display: flex;
-                justify-content: center;
-                border-radius: 50%;
-                overflow: hidden;
-                border: 1px solid#111a3e;
-                backdrop-filter: blur(9px);
-                -webkit-backdrop-filter: blur(9px);
-              "
+              class="p-2 bg-[#111a3e] w-12 h-12 flex justify-center items-center rounded-full border border-[#111a3e] backdrop-filter"
             >
               <img
                 src="https://img.icons8.com/metro/50/ffffff/new-post.png"
-                alt="new-post"
-                class="w-6"
+                alt="Email Icon"
               />
             </div>
-            <div class="ml-5 text-white">
-              <h4>Email</h4>
-              <a
-                href="mailto:maximejordan.gael@gmail.com"
-                class="text-[#adb7be]"
-                >maximejordan.gael@gmail.com</a
-              >
-            </div>
+            <a
+              href="mailto:maximejordan.gael@gmail.com"
+              class="text-white hover:text-primary"
+              >maximejordan.gael@gmail.com</a
+            >
           </div>
-          <div class="flex mb-10 items-center">
+          <div class="flex items-center space-x-2">
             <div
-              class="p-2"
-              style="
-                background: #111a3e;
-                width: 50px;
-                height: 46px;
-                display: flex;
-                justify-content: center;
-                border-radius: 50%;
-                overflow: hidden;
-                border: 1px solid#111a3e;
-                backdrop-filter: blur(9px);
-                -webkit-backdrop-filter: blur(9px);
-              "
+              class="p-2 bg-[#111a3e] w-12 h-12 flex justify-center items-center rounded-full border border-[#111a3e] backdrop-filter"
             >
               <img
                 src="https://img.icons8.com/ios-filled/50/ffffff/phone.png"
-                alt="phone"
-                class="w-6"
+                alt="Phone Icon"
               />
             </div>
-            <div class="ml-5 text-white">
-              <h4>Phone</h4>
-              <p>06.83.04.90.39</p>
-            </div>
+            <span>Phone: 06.83.04.90.39</span>
           </div>
-          <div class="flex mb-10 items-center">
+          <div class="flex items-center space-x-2">
             <div
-              class="p-2"
-              style="
-                background: #111a3e;
-                width: 50px;
-                height: 46px;
-                display: flex;
-                justify-content: center;
-                border-radius: 50%;
-                overflow: hidden;
-                border: 1px solid#111a3e;
-                backdrop-filter: blur(9px);
-                -webkit-backdrop-filter: blur(9px);
-              "
+              class="p-2 bg-[#111a3e] w-12 h-12 flex justify-center items-center rounded-full border border-[#111a3e] backdrop-filter"
             >
               <img
                 src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"
-                alt="linkedin"
-                class="w-6"
+                alt="LinkedIn Icon"
               />
             </div>
-            <div class="ml-5 text-white">
-              <h4>LinkedIn</h4>
-              <a
-                href="https://www.linkedin.com/in/maxime-gael"
-                class="text-[#adb7be]"
-                target="_blank"
-                >Mon Profil LinkedIn</a
-              >
-            </div>
+            <a
+              href="https://linkedin.com/in/maxime-gael"
+              class="text-white hover:text-primary"
+              target="_blank"
+              >My LinkedIn Profile</a
+            >
           </div>
         </div>
       </div>
-      <div
-        style="
-          background: #111a3e;
-          width: 100%;
-          height: 100%;
-          border-radius: 20px;
-          overflow: hidden;
-          border: 1px solid #111a3e;
-          backdrop-filter: blur(9px);
-          -webkit-backdrop-filter: blur(9px);
-        "
-      >
-        <form class="flex flex-col p-2" data-aos="zoom-in-up">
-          <div class="mb-6">
-            <label for="email" class="text-white block mb-2 text-sm font-medium"
-              >Email</label
-            >
-            <input
-              type="email"
-              id="email"
-              class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Your email address"
-              name="email"
-            />
-          </div>
-          <div class="mb-6">
-            <label
-              for="subject"
-              class="text-white block mb-2 text-sm font-medium"
-              >Subject</label
-            >
-            <input
-              type="subject"
-              id="subject"
-              class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Subject"
-              name="subject"
-            />
-          </div>
-          <div class="mb-6">
-            <label
-              for="message"
-              class="text-white block mb-2 text-sm font-medium"
-              >Message</label
-            >
-            <textarea
-              id="Message"
-              class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Let's talk about ... "
-              name="Message"
-            ></textarea>
-          </div>
-          <button
-            class="z-1 w-[100%!important] px-6 md:px-7 py-3 rounded-full sm:w-max flex justify-center text-white bg-primary border-2 border-transparent"
-          >
-            Send Message
-          </button>
-        </form>
-      </div>
-      <div
-        class="bg-gradient-to-tr opacity-25 from-[#570cac] to-primary blur-2xl h-20 w-80 z-0 absolute -top-1/2 -left-4 transform -translate-x-2/3 -translate-1/2"
-      ></div>
     </div>
   </section>
 </template>
-
-<script></script>

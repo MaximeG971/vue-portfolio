@@ -1,10 +1,10 @@
 <template>
-  <section class="text-whit mt-18" id="skills">
+  <section class="text-white mt-18" id="skills">
     <div class="absolute right-0 top-[110rem] h-full w-full justify-end">
       <span class="flex opacity-20">
-        <span class="w-16 h32 rounded-1-full flex bg-primary blur-2xl"></span>
+        <span class="w-16 h-32 rounded-full flex bg-primary blur-2xl"></span>
         <span
-          class="w-16 h32 rounded-1-full flex bg-[#f88fc2] blur-2xl mt-14"
+          class="w-16 h-32 rounded-full flex bg-[#f88fc2] blur-2xl mt-14"
         ></span>
       </span>
     </div>
@@ -19,18 +19,16 @@
             >Skills</span
           >
         </h2>
-        <div class="mt-8" v-for="skill in Skills" :key="skill.id">
-          <div class="flex items-end justify-between" data-aos="fade-right">
-            <h4 class="font-semibold uppercase text-white">
+        <div class="mt-8 grid grid-cols-3 gap-4">
+          <div
+            v-for="skill in skills"
+            :key="skill.id"
+            class="flex flex-col items-center"
+          >
+            <img :src="skill.logo" :alt="skill.name" class="w-16 h-16 mb-2" />
+            <h4 class="font-semibold uppercase text-white text-center">
               {{ skill.name }}
             </h4>
-            <h3 class="text-2xl font-bold text-white">{{ skill.width }}</h3>
-          </div>
-          <div class="mt-2 h-1 w-full bg-[#131d30] rounded-full">
-            <div
-              class="h-1 rounded-full bg-primary"
-              :style="`width :${skill.width}`"
-            ></div>
           </div>
         </div>
       </div>
@@ -38,15 +36,19 @@
         <h2
           class="text-4xl font-bold text-white text-left mb-8 md:text-center md:mt-0 mt-8"
         >
-          My Experiences
+          My
+          <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
+            >Experiences</span
+          >
         </h2>
         <div class="space-y-8 py-8" data-aos="fade-left">
           <div
-            v-for="element in Experiences"
-            :key="element.id"
+            v-for="experience in experiences"
+            :key="experience.id"
             class="flex items-center rounded-xl p-4 bg-[#111a3e] shadow-lg border border-[#1f1641]"
           >
-            <div class="w-1/4">
+            <div class="w-1/4 mr-2 md:mr-4">
               <img
                 src="https://img.icons8.com/ios-filled/100/ffffff/lawyer.png"
                 alt="lawyer"
@@ -56,10 +58,10 @@
               <h3
                 class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
               >
-                {{ element.role }}
+                {{ experience.role }}
               </h3>
-              <p class="text-white">{{ element.company }}</p>
-              <p class="text-white">{{ element.date }}</p>
+              <p class="text-white">{{ experience.company }}</p>
+              <p class="text-white">{{ experience.date }}</p>
             </div>
           </div>
         </div>
@@ -71,30 +73,75 @@
 <script setup>
 import { ref } from "vue";
 
-const Skills = ref([
+const skills = ref([
   {
     id: 1,
     name: "HTML & CSS",
-    width: "90%",
+    logo: "https://img.icons8.com/color/96/html-5--v1.png",
   },
   {
     id: 2,
     name: "JavaScript",
-    width: "95%",
+    logo: "https://img.icons8.com/color/96/javascript--v1.png",
   },
   {
-    id: 1,
+    id: 3,
     name: "React",
-    width: "90%",
+    logo: "https://img.icons8.com/plasticine/100/react.png",
   },
   {
-    id: 1,
+    id: 4,
+    name: "Next.js",
+    logo: "https://img.icons8.com/color/100/ffffff/nextjs.png",
+  },
+  {
+    id: 5,
+    name: "Node.js",
+    logo: "https://img.icons8.com/color/96/nodejs.png",
+  },
+  {
+    id: 6,
     name: "Vue",
-    width: "90%",
+    logo: "https://img.icons8.com/color/96/vue-js.png",
+  },
+  {
+    id: 7,
+    name: "Nuxt.js",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Nuxt_logo.svg",
+  },
+  {
+    id: 8,
+    name: "Laravel",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
+  },
+  {
+    id: 9,
+    name: "Docker",
+    logo: "https://img.icons8.com/color/96/docker.png",
+  },
+  {
+    id: 10,
+    name: "MySQL",
+    logo: "https://img.icons8.com/color/96/mysql-logo.png",
+  },
+  {
+    id: 11,
+    name: "Git",
+    logo: "https://img.icons8.com/color/96/git.png",
+  },
+  {
+    id: 12,
+    name: "GitHub",
+    logo: "https://img.icons8.com/ios-glyphs/100/ffffff/github.png",
+  },
+  {
+    id: 13,
+    name: "Tailwind CSS",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
   },
 ]);
 
-const Experiences = ref([
+const experiences = ref([
   {
     id: 1,
     role: "Web Developer",
