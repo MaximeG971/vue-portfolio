@@ -14,7 +14,7 @@
         <p
           class="text-[#adb7be] text-center my-4 mx-auto max-w-lg leading-relaxed"
         >
-          Que ce soit pour collaborer à une mission, discuter d'une offre
+          Que ce soit pour collaborer sur une mission, discuter d'une offre
           d'emploi ou simplement en savoir plus sur mon parcours, n'hésitez pas
           à me contacter. Je suis toujours prêt à saisir de nouvelles
           opportunités et à partager mes compétences pour relever de nouveaux
