@@ -30,7 +30,7 @@
           <p
             class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl"
           >
-            Développeur web français basé à Strasbourg, passionnéé par la
+            Développeur web français basé à Strasbourg, passionné par la
             création d'expériences numériques uniques et ouvert à de nouvelles
             opportunités.
           </p>
